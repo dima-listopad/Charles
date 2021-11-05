@@ -18,7 +18,7 @@ response:
     “Str”
 ]
 
-Task:
+☑Task:
 Сделать и в Rewrite, и в BreakPoint (можно отключить чтобы не стопило на каждом запросе)
  ⁃ Подменить url в Charles чтобы в запросе ушло имя которые вы вписали в Postman, а вернулось то, которое вы подставили в Charles.
 
@@ -40,7 +40,7 @@ response:
           'family': {'children': [['Alex', 24], ['Kate', 12]],
                      'u_salary_1_5_year': salary * 4}}
 
-Task:
+☑Task:
 Сделать и в Rewrite, и в BreakPoint (можно отключить чтобы не стопило на каждом запросе)
  ⁃ Подменить body в Charles так чтобы в запросе ушла salary которую вы вписали в Postman, а в u_salary_1_5_year цифра вернулась меньше оригинальной из запроса.
 
@@ -61,7 +61,7 @@ response:
           'daily_food': weight * 0.012,
           'daily_sleep': weight * 2.5}
 
-Task:
+☑Task:
 Сделать и в Rewrite, и в BreakPoint (можно отключить чтобы не стопило на каждом запросе)
  ⁃ Подменить параметры запроса в Charles так, чтобы в Postman пришел ответ где другое name, daily_food > weight из запроса, а daily_sleep < weight из запроса.
 
@@ -88,7 +88,7 @@ response:
                      'u_salary_1_5_year': salary * 4}
           }
 
-Task:
+☑Task:
 Сделать и в Rewrite, и в BreakPoint (можно отключить чтобы не стопило на каждом запросе)
 - Сделать через Charles так, чтобы сервер вернул 500 код.
 - Сделать через Charles так, чтобы сервер вернул 405 код.
@@ -110,7 +110,7 @@ response:
           'salary': [salary, str(salary * 2), str(salary * 3)]}
 
 
-Task:
+☑Task:
 Сделать и в Rewrite, и в BreakPoint (можно отключить чтобы не стопило на каждом запросе)
  ⁃ Сделать через Charles так, чтобы сервер вернул 405 ошибку.
  ⁃ Подменить salary в request
@@ -138,7 +138,7 @@ response:
                      'u_salary_5_years': salary * 4.2}
           }
 
-Task:
+☑Task:
 Сделать и в Rewrite, и в BreakPoint (можно отключить чтобы не стопило на каждом запросе)
  ⁃ Сделать через Charles так, чтобы в Postman вернулся ответ, в котором qa_salary_after_1.5_year переименовано в qa_salary_after_1.5_month
  ⁃ Сделать так чтобы qa_salary_after_3.5_years было меньше qa_salary_after_12_months в response
